@@ -1,0 +1,127 @@
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;          
+}
+
+ nav:not(.navbar){
+  line-height: 25px;
+  font-size: 12px;
+  margin: 20px auto;
+  text-align: left;
+}
+.msgStyle{
+  width: 300px!important;
+}
+.totalsign{
+  height: 45px;
+  background: #ccc;
+  margin: 15px auto;
+  padding: 0 10px;
+  display: flex;
+  align-items:center;
+  border-radius: 5px;
+}
+.el-form-item{
+  text-align: left;
+}
+ .nav-item{
+    display: inline-flex;
+    align-items:center;
+    font-size: 12px;
+     margin: 8px 0px;
+     .date-label{
+      text-align: center;
+     }
+      .el-date-editor.el-input.el-date-editor--datetimerange{
+      	height: 30px;
+      	input.el-input__inner{
+      		height: 30px;
+      		// width: 160px;
+      	}
+      	
+      }
+
+        label{
+          font-weight: normal;
+          color:#666;
+          margin-right: 5px;
+          text-align: center;
+          min-width: 60px;
+        
+           margin-bottom: 0px;
+           flex:none;
+        }
+        .el-input--small{
+          height: 30px;
+          //width: 120px;
+        }
+        .el-select,.el-input:not(.el-date-editor){
+
+
+        .el-input__inner{
+    		     height: 30px;
+             width: 160px;
+		      }
+        }
+
+  }
+       .el-button {
+          min-height: 30px;
+          // line-height: 25px;
+          margin-left: 10px;
+          span{
+            font-size: 12px;
+          }
+          padding: 0px 10px;
+    }
+  
+  .el-table__header{
+    thead tr th{
+      text-align: center;
+    }
+  }
+.cell-style{
+	td{
+		.cell{
+			padding: 0 8px;
+      text-align: center;
+		}
+    
+	}
+  
+	
+}
+
+.totalsign{
+  height: 45px;
+  background: #ccc;
+  margin: 15px auto;
+  padding: 0 10px;
+  display: flex;
+  align-items:center;
+  border-radius: 5px;
+  .nav-item >label{
+ 
+      width: auto;
+    
+  }
+}
+  .billDetailed{
+    width: 100%;
+    background: #ccc;
+    height: 40px;
+    line-height:40px;
+    border-radius:5px;
+    margin-bottom: 15px;
+  text-align: left;
+    span{
+      display: inline-block;
+      margin-left: 20px;
+       margin-right: 20px;
+      font-size: 14px;
+    }
+  }

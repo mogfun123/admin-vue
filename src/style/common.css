@@ -1,0 +1,29 @@
+
+ .navbar{
+   margin-bottom: 0px;
+  }
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+ 
+ 
+}
+html { font: menu; }
+body { font-size: 12px; }
+ .is-leaf .cell{
+    color:#999;
+    font-weight: normal;
+    padding: 0 8px;
+ }
+
+ input.el-input__inner{
+     height: 30px;
+    /* min-width: 160px;*/
+  }
+
+      	
+.btn-search-s{
+ width: 140px;
+}
+
